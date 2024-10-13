@@ -1,0 +1,13 @@
+﻿<h2>Afficher les commandes entre deux dates précises</h2>
+
+<form asp-action="AfficherCommandesEntreDates" method="post">
+    <div class="form-group">
+        <label>Date de début :</label>
+        <input type="date" name="dateDebut" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Date de fin :</label>
+        <input type="date" name="dateFin" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Afficher les commandes</button>
+</form>

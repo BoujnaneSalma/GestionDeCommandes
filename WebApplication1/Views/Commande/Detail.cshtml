@@ -1,0 +1,20 @@
+﻿@model WebApplication1.Models.Commande;
+
+<h1>Détails de la Commande </h1>
+
+<div>
+    <h4>date de Commande : @Model.DateCommande</h4>
+    <h4>Client : @Model.ClientId</h4>
+    
+    <hr />
+    <div>
+        <h4>Produits associés :</h4>
+        <ul>
+            @foreach (var LC in Model.LigneCommandes)
+            {
+                <span>Quantité</span>
+                <li>@LC.Qte</li>
+            }
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+﻿
+@model Commande
+
+<form asp-action="Update" asp-controller="Commande" method="post">
+    <div class="form-group">
+        <label asp-for="DateCommande" class="col-form-label">Date de Commande :</label>
+        <input asp-for="DateCommande" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Client">Client :</label>
+        <select asp-for="ClientId">
+            @foreach (Client c in ViewBag.Client)
+            {
+                <option value="@c.Id">@c.Name</option>
+            }
+        </select>
+
+    </div>
+
+
+    <br />
+    <button type="submit" class="btn btn-primary">Modifier</button>
+</form>

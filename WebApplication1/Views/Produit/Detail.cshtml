@@ -1,0 +1,22 @@
+﻿@model WebApplication1.Models.Produit
+
+<h1>Détails de le Produit </h1>
+
+<div>
+    <h4>Libelle de Produit : @Model.Libelle</h4>
+    <h4>Prix unitaire : @Model.PU</h4>
+    <h4>Image </h4>
+    <img src="~/img/@Model.Image" width="100" height="100" />
+
+    <hr />
+    <div>
+        <h4>Produits associés :</h4>
+        <ul>
+            @foreach (var LC in Model.LigneCommandes)
+            {
+                <span>Quantité</span>
+                <li>@LC.Qte</li>
+            }
+        </ul>
+    </div>
+</div>

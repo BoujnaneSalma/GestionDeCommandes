@@ -1,0 +1,43 @@
+﻿@model Produit
+
+<form asp-action="Update" asp-controller="Produit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Libelle">Libelle :</label>
+        <input type="text" asp-for="Libelle" class="form-control" />
+        <span asp-validation-for="Libelle" class="text-danger"></span></>
+    </div>
+    <div class="form-group">
+        <label asp-for="PU">Prix unitaire :</label>
+        <input asp-for="PU" class="form-control" />
+        <span asp-validation-for="PU" class="text-danger"></span></>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Category">Categories :</label>
+        <select asp-for="CategoryId" class="form-control">
+            <option value"">Selectionné une Categorie</option>
+            @foreach (Category c in ViewBag.category)
+            {
+                <option value="@c.Id">@c.Libelle</option>
+
+            }
+        </select>
+
+    </div>
+    <input asp-for="Id" type="hidden" class="form-control" />
+    <input asp-for="Image" type="hidden" class="form-control" />
+    <div class="form-group">
+        <div class="form-group">
+            <label name="MyImage">Photo:</label>
+            <input type="file" name="MyImage" class="form-control" />
+            <span asp-validation-for="Image" class="text-danger"></span>
+            @if (!string.IsNullOrEmpty(Model.Image))
+            {
+                <img src="@Url.Content($"~/img/{Model.Image}")" width="100" height="100" />
+            }
+        </div>
+
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Modifier</button>
+</form>

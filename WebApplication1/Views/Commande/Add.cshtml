@@ -1,0 +1,182 @@
+﻿@model WebApplication1.Models.CommandeViewModel;
+
+<form method="post" class="mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="DateCommande" class="form-label">Date :</label>
+                <input asp-for="DateCommande" class="form-control" />
+                <span asp-validation-for="DateCommande" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Client" class="form-label">Client :</label>
+                <select asp-for="ClientId" name="ClientId" class="form-control">
+                    <option value"">Sélectionnez un Client</option>
+                    @foreach (Client c in ViewBag.Client)
+                    {
+                        <option value="@c.Id">@c.Name @c.Prenom</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="categorie" class="control-label">Catégorie:</label>
+                <select id="categorie" name="CategoryId" class="form-control">
+                    <option value="">Sélectionnez une catégorie</option>
+                    @foreach (var categorie in ViewBag.categorie)
+                    {
+                        <option value="@categorie.Id">@categorie.Libelle</option>
+                    }
+                </select>
+
+                
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div id="produits-section" class="form-group">
+                <label for="produit" class="control-label">Produit:</label>
+                <select id="produit" name="Libelle" class="form-control">
+                    <option value="">Sélectionnez un produit</option>
+                </select>
+
+                
+            </div>
+        
+        <div class="form-group">
+            <label id="pu-label" class="control-label">Prix unitaire:</label>
+                <input type="text" id="pu" name="PU" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label id="image-label" class="control-label">Image:</label>
+           
+                <img id="image" name="Image" class="img-thumbnail" src="" alt="Image du produit" style="max-width: 200px; max-height: 200px;" />
+        </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="Qte" class="form-label">Qte :</label>
+                <input asp-for="Qte" id="quantite" class="form-control" />
+                <span asp-validation-for="Qte" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <button id="ajouterAuPanier" type="button" class="btn btn-primary">Ajouter au panier</button>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-success" asp-action="Add" asp-controller="Commande">Valider la commande</button>
+        </div>
+    </div>
+</form>
+
+
+<div id="panier-section">
+    <h4>Panier</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Quantité</th>
+                <th>Prix unitaire</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="panier-body">
+            <!-- Les produits ajoutés au panier seront affichés ici -->
+        </tbody>
+    </table>
+    <h4>Total</h4>
+    <div class="form-group">
+        <label id="total-ht-label" class="control-label">Total HT:</label>
+        <input id="total-ht" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label id="tva-label" class="control-label">TVA (20%):</label>
+        <input id="tva" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label id="total-ttc-label" class="control-label">Total TTC:</label>
+        <input id="total-ttc" class="form-control" readonly />
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#categorie').change(function () {
+                var categoryId = $(this).val();
+                if (categoryId) {
+                    $.ajax({
+                        type: 'GET',
+                        url: '/Commande/GetProduitsByCategory',
+                        data: { categoryId: categoryId },
+                        success: function (produits) {
+                            $('#produit').empty();
+                            $.each(produits, function (i, produit) {
+                                $('#produit').append('<option value="' + produit.id + '">' + produit.libelle + '</option>');
+                            });
+                        }
+                    });
+                } else {
+                    $('#produit').empty();
+                }
+            });
+            $('#produit').change(function () {
+                var produitId = $(this).val();
+                if (produitId) {
+                    $.ajax({
+                        type: 'GET',
+                        url: '/Commande/GetProduitDetails',
+                        data: { produitId: produitId },
+                        success: function (produit) {
+                            $('#pu').val(produit.pu);
+                            $('#image').attr('src', '@Url.Content("~/img/")' + produit.image);
+                        }
+                    });
+                } else {
+                    $('#pu').val('');
+                    $('#image').attr('src', '');
+                }
+            });
+            $('#ajouterAuPanier').click(function () {
+                var produitId = $('#produit').val();
+                var produitLibelle = $('#produit option:selected').text();
+                var quantite = $('#quantite').val();
+                var pu = $('#pu').val();
+
+                var total = quantite * pu;
+
+                var newRow = '<tr><td>' + produitLibelle + '</td><td>' + quantite + '</td><td>' + pu + '</td><td>' + total + '</td></tr>';
+                $('#panier-body').append(newRow);
+                // Calcul du Total HT
+                var totalHT = 0;
+                $('#panier-body tr').each(function () {
+                    var quantite = parseInt($(this).find('td:eq(1)').text());
+                    var pu = parseFloat($(this).find('td:eq(2)').text());
+                    totalHT += quantite * pu;
+                });
+                $('#total-ht').val(totalHT.toFixed(2));
+
+                // Calcul de la TVA (20%)
+                var TVA = totalHT * 0.20;
+                $('#tva').val(TVA.toFixed(2));
+
+                // Calcul du Total TTC
+                var totalTTC = totalHT + TVA;
+                $('#total-ttc').val(totalTTC.toFixed(2));
+            });
+
+        });
+
+</script>
+}

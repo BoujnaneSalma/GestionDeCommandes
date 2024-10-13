@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WebApplication1.Models.Produit>
+
+<h2>Liste de Produits</h2>
+
+<table id="mytable" class="table table-striped table-bordered">
+    <thead class="thead-dark">
+        <tr>
+            <th>Libelle</th>
+            <th>Prix Unitaire</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Libelle</td>
+                <td>@p.PU</td>
+                <td><img src="~/img/@p.Image" width="100" height="100" class="img-thumbnail" /></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#mytable').DataTable();
+        });
+    </script>
+}

@@ -1,0 +1,17 @@
+﻿@model WebApplication1.Models.Category
+
+<h1>Détails de la catégorie </h1>
+
+<div>
+    <h4>Libellé : @Model.Libelle</h4>
+    <hr />
+    <div>
+        <h4>Produits associés :</h4>
+        <ul>
+            @foreach (var produit in Model.Produits)
+            {
+                <li>@produit.Libelle</li>
+            }
+        </ul>
+    </div>
+</div>

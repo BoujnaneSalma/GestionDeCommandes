@@ -1,0 +1,49 @@
+﻿@model List<Commande>
+
+<a asp-action="Add" class="btn btn-primary"><i class="fas fa-plus"></i> Ajouter une commande</a>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Identifiant</th>
+            <th>Date de Commande</th>
+            <th>Client</th>
+            <th>Quantité</th>
+            <th>Facture</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.DateCommande</td>
+                <td>@c.Client.Name @c.Client.Prenom</td>
+                <td>
+                    <ul class="list-unstyled">
+                        @foreach (var l in c.LigneCommandes)
+                        {
+                            <li>@l.Qte</li>
+                        }
+                    </ul>
+                </td>
+                <td></td>
+                <td>
+                   
+                        <a asp-action="Update" asp-controller="Commande" asp-route-id="@c.Id" class="btn btn-primary"><i class="fas fa-edit"></i> </a>
+                        <a asp-action="Delete" asp-controller="Commande" asp-route-id="@c.Id" class="btn btn-danger" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette commande ?')"><i class="fas fa-trash"></i> </a>
+                        <a asp-action="Detail" asp-controller="Commande" asp-route-id="@c.Id" class="btn btn-secondary"><i class="fas fa-info-circle"></i> </a>
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#mytable').DataTable();
+        });
+    </script>
+}

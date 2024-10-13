@@ -1,0 +1,595 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|c:\\users\\boujnane\\desktop\\asp\\gestiondecommande\\webapplication1\\webapplication1\\views\\commande\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\commande\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\produit\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\produit\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\controllers\\commandecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\commandecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\models\\produitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\produitviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\produit\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\produit\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\category\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\service\\uplead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\service\\uplead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\produit\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\commande\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\commande\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\commande\\listproduits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\commande\\listproduits.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\commande\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\commande\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03580583-9924-4BE5-B9B6-8C083572781D}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\windowsformsapp1\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{03580583-9924-4BE5-B9B6-8C083572781D}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\report1.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03580583-9924-4BE5-B9B6-8C083572781D}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\windowsformsapp1\\report2.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{03580583-9924-4BE5-B9B6-8C083572781D}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\report2.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03580583-9924-4BE5-B9B6-8C083572781D}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\windowsformsapp1\\viewmodel\\produitbycategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03580583-9924-4BE5-B9B6-8C083572781D}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\viewmodel\\produitbycategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\facture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\produit\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\produit\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\context\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\context\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240426090649_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240426090649_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\webapplication1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240424142646_AddAttributsClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240424142646_AddAttributsClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240424141809_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240424141809_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240426091501_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D89EBD8-D7B2-4477-A55C-5189BCBBAFC9}|WebApplication1\\WebApplication1.csproj|solutionrelative:WebApplication1\\Migrations\\20240426091501_AddIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Commande.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Commande.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Commande.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Commande.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Commande.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T10:12:27.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Category\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Detail.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Category\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:32:46.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Category.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T15:41:27.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Add.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Produit\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Add.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Produit\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T17:07:37.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProduitViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\ProduitViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ProduitViewModel.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\ProduitViewModel.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ProduitViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T09:32:58.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Produit\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Update.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Produit\\Update.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAcwCcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T11:24:50.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:32:31.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Category\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Add.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Category\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T08:59:54.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\Add.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Commande\\Add.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\Add.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Commande\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T08:31:15.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Category\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Update.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Category\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T14:03:32.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommandeController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Controllers\\CommandeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\CommandeController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Controllers\\CommandeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\CommandeController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAFcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T22:29:17.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProduitController.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Controllers\\ProduitController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ProduitController.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Controllers\\ProduitController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ProduitController.cs",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJEAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T07:46:35.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Produit.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Produit.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Produit.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Produit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:10:05.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T13:52:49.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "uplead.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\service\\uplead.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\service\\uplead.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\service\\uplead.cs",
+              "RelativeToolTip": "WebApplication1\\service\\uplead.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:03:49.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Commande\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Commande\\Index.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-23T15:13:26.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Produit\\Index.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Produit\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T09:56:16.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\Update.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Commande\\Update.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\Update.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Commande\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-24T13:55:02.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListProduits.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\ListProduits.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Commande\\ListProduits.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Commande\\ListProduits.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Commande\\ListProduits.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-08T09:49:37.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Facture.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Facture.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Facture.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Facture.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Facture.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T08:28:29.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Report2.rdlc [Conception]",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WindowsFormsApp1\\Report2.rdlc",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Report2.rdlc",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WindowsFormsApp1\\Report2.rdlc [Conception]",
+              "RelativeToolTip": "WindowsFormsApp1\\Report2.rdlc [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-05-03T21:49:39.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Report1.rdlc [Conception]",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WindowsFormsApp1\\Report1.rdlc",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Report1.rdlc",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WindowsFormsApp1\\Report1.rdlc [Conception]",
+              "RelativeToolTip": "WindowsFormsApp1\\Report1.rdlc [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-05-03T21:17:56.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "produitByCategorie.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WindowsFormsApp1\\ViewModel\\produitByCategorie.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\ViewModel\\produitByCategorie.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WindowsFormsApp1\\ViewModel\\produitByCategorie.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\ViewModel\\produitByCategorie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T21:48:16.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Produit\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Produit\\Detail.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Produit\\Detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T11:34:58.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAwwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:08:56.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAAAwwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:08:33.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240426090649_AddIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240426090649_AddIdentity.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240426090649_AddIdentity.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240426090649_AddIdentity.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240426090649_AddIdentity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T09:06:49.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:09:15.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20240426091501_AddIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240426091501_AddIdentity.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240426091501_AddIdentity.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240426091501_AddIdentity.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240426091501_AddIdentity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T09:15:01.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T09:10:29.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Context\\MyContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Context\\MyContext.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Context\\MyContext.cs",
+              "RelativeToolTip": "WebApplication1\\Context\\MyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T09:11:55.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T09:04:32.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "WebApplication1\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "WebApplication1\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-24T13:38:48.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Models\\Client.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:12:12.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240424142646_AddAttributsClient.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240424142646_AddAttributsClient.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240424142646_AddAttributsClient.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240424142646_AddAttributsClient.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240424142646_AddAttributsClient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:26:46.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20240424141809_first.cs",
+              "DocumentMoniker": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240424141809_first.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240424141809_first.cs",
+              "ToolTip": "C:\\Users\\BOUJNANE\\Desktop\\ASP\\GestionDeCommande\\WebApplication1\\WebApplication1\\Migrations\\20240424141809_first.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240424141809_first.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:18:09.604Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

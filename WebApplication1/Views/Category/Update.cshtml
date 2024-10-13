@@ -1,0 +1,11 @@
+﻿@model Category
+
+<form asp-action="Update" asp-controller="Category" method="post">
+    <div class="form-group">
+        <label asp-for="Libelle" class="col-form-label">Libelle de la categorie :</label>
+        <input asp-for="Libelle" class="form-control" />
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Modifier</button>
+</form>

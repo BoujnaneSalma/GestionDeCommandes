@@ -1,0 +1,51 @@
+﻿@model List<Produit>
+
+<a asp-action="Add" class="btn btn-primary"><i class="fas fa-plus"></i></a>
+<a asp-action="AfficherCommandesEntreDates" class="btn btn-dark">Afficher Commandes Entre Dates</a>
+<a class="btn btn-outline-secondary" asp-controller="Produit" asp-action="Imprimer"><i class="fas fa-print"></i> Imprimer</a>
+
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Identifiant</th>
+            <th>Libellé</th>
+            <th>Image</th>
+            <th>Catégorie</th>
+            <th>Quantité</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Libelle</td>
+                <td><img src="~/img/@p.Image" width="100" height="100" class="img-thumbnail" /></td>
+                <td>@p.Category.Libelle</td>
+                <td>
+                    <ul class="list-unstyled">
+                        @foreach (var l in p.LigneCommandes)
+                        {
+                            <li>@l.Qte</li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a asp-action="Update" asp-controller="Produit" asp-route-id="@p.Id" class="btn btn-primary"><i class="fas fa-edit"></i> </a>
+                        <a asp-action="Delete" asp-controller="Produit" asp-route-id="@p.Id" class="btn btn-danger" onclick="return confirm('Êtes-vous sûr de vouloir supprimer ce produit ?')"><i class="fas fa-trash"></i> </a>
+                        <a asp-action="Detail" asp-controller="Produit" asp-route-id="@p.Id" class="btn btn-secondary"><i class="fas fa-info-circle"></i> </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#mytable').DataTable();
+        });
+    </script>
+}

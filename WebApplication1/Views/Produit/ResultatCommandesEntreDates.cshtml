@@ -1,0 +1,30 @@
+﻿@model List<WebApplication1.Models.Commande>
+
+<h2>Résultat des commandes entre deux dates précises</h2>
+
+@if (Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date de commande</th>
+                <th>Client</th>
+                <!-- Ajoutez d'autres en-têtes de colonnes selon vos besoins -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var commande in Model)
+            {
+                <tr>
+                    <td>@commande.DateCommande</td>
+                    <td>@commande.Client.Name @commande.Client.Prenom</td>
+                    <!-- Ajoutez d'autres données de commande selon vos besoins -->
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Aucune commande trouvée entre les dates sélectionnées.</p>
+}
